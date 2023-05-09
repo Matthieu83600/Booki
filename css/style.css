@@ -394,7 +394,7 @@ a {color: black;
     .search-filters p {font-size: 16px;}
 
     .hebergements-and-populaires section {border-radius: 0;}
-
+                                         
     .populaires {gap: 15px;
                  margin-top: -15px;
                  order: 0;  
@@ -408,7 +408,8 @@ a {color: black;
     .populaires-cards .card {height: 137px;
                              width: 100%;
                             }
-                           
+    #hebergements {background-color: white;}    
+
     .hebergements {order: 1;  
                    width: 100%;
                   }
@@ -418,6 +419,13 @@ a {color: black;
                         margin-left: -15px;
                         width: 100%; 
                        }
+
+    .hebergement-cards :nth-child(1) {order: 1;}
+    .hebergement-cards :nth-child(2) {order: 6;}
+    .hebergement-cards :nth-child(3) {order: 3;}
+    .hebergement-cards :nth-child(4) {order: 4;}
+    .hebergement-cards :nth-child(5) {order: 2;}
+    .hebergement-cards :nth-child(6) {order: 5;}
 
     .hebergement-cards .card {width: 100%;}
 
